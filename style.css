@@ -681,6 +681,13 @@ ul {
     }
 
 }
+@media (max-width: 950px) {
+    .new_box_text {
+        font-size: 35px;
+        line-height: 32px;
+        max-width: 470px;
+    }
+}
 
 @media (max-width: 850px) {
     .nav_list {
@@ -693,7 +700,11 @@ ul {
         /* width: 100%; */
         max-width: 70px;
     }
-
+    .new_box_text {
+        font-size: 32px;
+        line-height: 30px;
+        max-width: 420px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -711,6 +722,11 @@ ul {
         max-width: 450px;
         /* line-height: 42px; */
     }
+    .new_box_text {
+        font-size: 27px;
+        line-height: 30px;
+        max-width: 370px;
+    }
     .sec_fluid_left {
         justify-content: flex-end;
     }
@@ -723,11 +739,24 @@ ul {
     }
 }
 
+@media (max-width: 710px) {
+    .new_box_text {
+        font-size: 24px;
+        line-height: 28px;
+        max-width: 250px;
+    }
+    
+}
+
 @media (max-width: 600px) {
     .flex-team {
         justify-content: center;
     }
-    
+    .new_box_text {
+        font-size: 20px;
+        line-height: 22px;
+        max-width: 240px;
+    }
 }
 
 @media (max-width: 580px) {
@@ -861,6 +890,11 @@ ul {
     /* .burger_img {
         max-width: 20px;
     } */
+    .button {
+        padding: 10px 15px;
+        line-height: 14px;
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 460px) {
@@ -917,8 +951,11 @@ ul {
 
 @media (max-width: 425px) {
     .button {
-        padding: 5px 15px;
+        /* padding: 5px 15px;
+        line-height: 18px; */
+        padding: 8px 13px;
         line-height: 18px;
+        font-size: 12px;
     }
     .sec_fluid {
         min-height: 300px;
@@ -934,13 +971,56 @@ ul {
         max-width: 358px;
         margin-bottom: 20px;
     }
+    .title-team{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .txt-team{
+        font-size: 15px;
+        line-height: 18px;
+    }
     .photo_img {
         max-width: 55px;
     }
     .logo_img {
         max-width: 150px;
     }
+    .MainScreen h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .new_box_text {
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 220px;
+    }
 
+}
+
+@media (max-width: 400px) {
+    .button {
+        padding: 10px 15px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 390px) {
+    /* .logo_img {
+        max-width: 115px;
+    } */
+    .burger {
+        width: 20px;
+        height: 21px;
+    }
+    /* .button {
+        padding: 8px 13px;
+        line-height: 15px;
+    } */
+    .new_box_text {
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 200px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -948,12 +1028,13 @@ ul {
         max-width: 120px;
     }
     .burger {
-        width: 24px;
-        height: 25px;
+        width: 22px;
+        height: 23px;
     }
-    .button {
+    /* .button {
         font-size: 13px;
-    }
+    } */
+    
     .MainScreen h1 {
         font-size: 35px;
         line-height: 40px;
